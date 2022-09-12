@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hora do Dia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+  <header>
+    <h1>Verificador de idade</h1>
+  </header>
+  <main >
+    <section>
+      <p>Ano de nascimento: 
+        <input type="number" name="txtano" id="txtano" min="0">
+      </p>
+      <p>Sexo:
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="mas">Masculino</label>        
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" value="verificar" onclick="verificar()" id="verificar">
+      </p>
+      <div id="res">   
+         
+        <P>Preencha os dados acima para ver o resultado</P>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido por João Andreassa</p>
+    <a href="https://github.com/JoaoAndreassa" target="_blank" rel="noopener noreferrer"><button>github</button></a>  
+    <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-rubio-andreassa-85ba025b/" target="_blank"><button>linkedin</button></a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

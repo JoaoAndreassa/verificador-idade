@@ -1,0 +1,50 @@
+body{
+  background-image: linear-gradient(to right, rgb(226, 177, 185),rgb(222, 23, 222),rgb(104, 104, 246),rgba(0, 0, 255, 0.834));
+  max-width: 500px;
+  max-height: 700px;
+  margin: auto;
+  font-size: 20px;
+  font-style: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  header{
+    font-size: 24px;
+    text-align: center;
+  }
+  main{
+  background-color: aliceblue;
+  max-width: 500px;
+  max-height: 700px;
+  padding: 16px;
+  margin:10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.305);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size:1.4rem;
+
+  }
+  footer{
+    text-align: center;
+  }
+  button{
+    border-radius: 10px;
+    color: black;
+    background-color: rgba(164, 164, 219, 0.772);
+    width: 5rem;
+    font-weight: bolder;
+  }
+  button:hover{
+    background-color: antiquewhite;
+
+  }
+  #verificar{
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.542);
+  }
+  #verificar:hover{
+    background-color: rgba(0, 0, 0, 0.655);
+    color: antiquewhite;
+
+  }
